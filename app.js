@@ -1,16 +1,16 @@
-let userName = document.getElementById("userName");
-let userPassword = document.getElementById("userPassword");
-
-
-
-let adminData = {
-    name: "wasil",
-    Password: 12345,
-}
-
-let { name, Password } = adminData
 
 function loginBtn() {
+    let userName = document.getElementById("userName");
+    let userPassword = document.getElementById("userPassword");
+    
+    
+    
+    let adminData = {
+        name: "wasil",
+        Password: 12345,
+    }
+    
+    let { name, Password } = adminData
 
     if (name == userName.value && Password == userPassword.value) {
         location = "dashboard.html"
