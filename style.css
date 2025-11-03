@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.color {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login {
+    background: linear-gradient(100deg, #601577, #5ef032);
+    height: 60vh;
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.login input {
+    width: 90%;
+    max-width: 400px;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+
+.login button {
+    width: 80%;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dashbaordcolor {
+    background: linear-gradient(100deg, #601577, #5ef032);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.dashboard {
+    margin: auto;
+    height: 80vh;
+    width: 30%;
+    margin-top: 4%;
+    padding: 10px;
+}
+
+.recordListBtn {
+    background-color: #5ef032;
+    text-align: end;
+    padding: 10px;
+}
+
+.recordListBtn button {
+    background-color: rgb(238, 93, 9);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    box-shadow: 5px 7px 10px rgb(238, 93, 9);
+
+}
+
+
+
+
+
+.main {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    gap: 30px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.main h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 4px solid gray;
+}
+
+.main input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3px solid red;
+
+}
+
+
+.main button {
+    background-color: green;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+
+.main .attendenceBtn {
+    background-color: rgb(61, 9, 110);
+    width: 50%;
+}
+
+.attendencepannel {
+    background: linear-gradient(100deg, #601577, #5ef032);
+    color: white;
+    height: 100vh;
+
+}
+
+.attendencepannel h1 {
+    text-align: center;
+    border-bottom: 3px solid red;
+}
+
+.attendence {
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.list {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list p {
+    font-size: 17px;
+}
+
+
+.recordList {
+    background: linear-gradient(100deg, #601577, #5ef032);
+    height: 95vh;
+    width: 100%;
+    padding-top: 40px;
+    
+}
+
+.recordmain {
+    background-color: white;
+    padding: 30px;
+    width: 37vw;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.row{
+    background-color: #601577;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(209, 203, 203);
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px black;
+}
+
+.rollNumberInput{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+.rollNumberInput::placeholder{
+    color: black;
+}
+
+.row button{
+    background: linear-gradient(100deg, #601577, #5ef032);
+    padding: 14px;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.recordmainList{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 19px;
+}
+

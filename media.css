@@ -1,0 +1,111 @@
+@media only screen and (min-width:200px) and (max-width:557px) {
+    .login {
+        background: linear-gradient(100deg, #601577, #5ef032);
+        height: 50vh;
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .login input {
+        width: 80%;
+        margin: 8px;
+        padding: 7px;
+        font-size: 12px;
+
+    }
+
+
+    .login button {
+        width: 50%;
+        margin-top: 10px;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+
+
+    .dashboard {
+        margin: auto;
+        height: 70vh;
+        width: 50%;
+    }
+
+
+
+
+    .main {
+        gap: 20px;
+        padding: 30px;
+
+    }
+
+    .main h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .main input {
+        width: 100%;
+        padding: 7px;
+        font-size: 13px;
+        border-bottom: 3px solid green;
+
+    }
+
+
+    .main button {
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 13px;
+    }
+
+
+    .main .attendenceBtn {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .recordmain {
+        padding: 30px;
+        width: 47vw;
+        border-radius: 20px;
+        box-shadow: 7px 7px 7px black;
+    }
+
+
+    .row {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .rollNumberInput {
+        font-size: 13px;
+        position: relative;
+        top: 20px;
+    }
+
+    .row button {
+        padding: 8px;
+        position: relative;
+        top: 60px;
+        width: 80px;
+        font-size: 12px;
+        margin: auto;
+    }
+}
