@@ -15,7 +15,7 @@ function loginBtn() {
     if (name == userName.value && Password == userPassword.value) {
         location = "dashboard.html"
     } else {
-        alert("invalid")
+        alert("invalid password is name : wasil password : 12345")
     }
 
 }
